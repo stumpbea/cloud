@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: stumpea/devopsazure:latest
+          tags: stumea/node-beispiel-stumpbea:latest
 
   deploy:
     permissions:
